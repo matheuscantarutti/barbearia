@@ -1,0 +1,19 @@
+@media screen and (min-width: 600px) {
+    .caixa,
+    .principal,
+    .beneficios,
+    .mapa-conteudo,
+    .video{
+        background: red;
+    }
+
+    .caixa-menu{
+        position: absolute;
+    }
+
+
+    .lista-beneficios,
+    .img-beneficios{
+        width: 100%;
+    }
+}

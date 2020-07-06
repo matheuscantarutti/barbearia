@@ -1,0 +1,73 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background: #BBBBBB;
+}
+
+.header-caixa h1{
+    margin-bottom: 0;
+}
+
+.header-caixa{
+    width: 100%;   
+}
+
+.header-caixa-logo{
+    text-align: center;
+    margin: 1em;
+}
+
+.header-caixa-menu{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    background: #BBBBBB;
+    
+}
+.header-caixa-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-caixa-menu li{
+    list-style: none; 
+}
+
+.header-caixa-menu a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    list-style: none;
+    padding: .3em;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    
+}
+
+footer{
+    padding: 1em;
+    text-align: center;
+    background-image: url(../imagens/bg.jpg); 
+ }
+
+
+ .copyright{
+    color: white;
+    font-size: .8em;
+    margin-top: 20px;
+ }
+
+
+
+
+
+
+
